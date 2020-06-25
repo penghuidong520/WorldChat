@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/WorldChat">
+  <Resource auth="Container" 
+            username="anhaoxiang@worldchatdb" 
+            password="Xah19960807"
+            url="jdbc:mysql://worldchatdb.mysql.database.azure.com/world_chatdb"
+            driverClassName="com.mysql.jdbc.Driver" 
+            
+            type="javax.sql.DataSource"
+            initialSize="0" maxIdle="30" 
+            maxOpenPreparedStatements="100" 
+            maxTotal="10000" 
+            maxWaitMillis="10000"
+            minEvictableIdleTimeMillis="60000"
+            minIdle="0" 
+            name="connpool"
+
+            poolPreparedStatements="true" 
+            rollbackOnReturn="true" 
+            testWhileIdle="true" 
+            timeBetweenEvictionRunsMillis="30000" 
+            
+            />
+</Context>

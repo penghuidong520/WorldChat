@@ -1,0 +1,22 @@
+h1 {
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+}
+
+input {
+        width: 80%;
+        margin: 1em 0em;
+}
+
+input[type=date] {
+        width: 25%;
+}
+
+input[type=submit] {
+        width: 25%;
+}
+
+form {
+        padding: 0.5em;
+}
+
